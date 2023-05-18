@@ -38,6 +38,11 @@
                     </li>
                 </ul>
             </address>
+            <button type="button" class="mobile-button js-open-menu" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+                <svg width="40" height="40" aria-label="Переключатель мобильного меню" class="mobile-button-icon">
+                  <use class="icon-menu" href="./images/icons.svg#icon-menu-hamburger"></use>
+                </svg>
+            </button>
         </div>
     </header>
     <main>
@@ -425,6 +430,67 @@
             </div>
         </div>
     </div>
+    <div class="backdrop js-menu-container is-hidden">
+        <div class="mobile-menu">
+            <button class="close-btn js-close-menu">
+                <svg class="close-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <ul class="list mobile-menu-list">
+                <li class="mobile-menu-list-item">
+                    <a href="./index.html" class="list-link-item selected-list-link-item link">Studio</a>
+                </li>
+                <li class="mobile-menu-list-item">
+                    <a href="./portfolio.html" class="list-link-item link">Portfolio</a>
+                </li>
+                <li class="mobile-menu-list-item">
+                    <a href="" class="list-link-item link">Contacts</a>
+                </li>
+            </ul>
+            <address class="address-menu">
+                <ul class="list mobile-menu-list">
+                    <li class="mobile-menu-list-item">
+                        <a href="tel:+110001111111" class="address-link link tel-addess-link">+11 (000) 111-11-11</a>
+                    </li>
+                    <li class="mobile-menu-list-item">
+                        <a href="mailto:info@devstudio.com" class="address-link link">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </address>
+            <ul class="social-media-icons list">
+                <li class="social-media-icon-item">
+                    <a class="social-media-icon-link" href="">
+                        <svg class="social-media-icon" width="16px" height="16px">
+                            <use href="./images/icons.svg#instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-media-icon-item">
+                    <a class="social-media-icon-link" href="">
+                        <svg class="social-media-icon" width="16px" height="16px">
+                            <use href="./images/icons.svg#twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-media-icon-item">
+                    <a class="social-media-icon-link" href="">
+                        <svg class="social-media-icon" width="16px" height="16px">
+                            <use href="./images/icons.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-media-icon-item">
+                    <a class="social-media-icon-link" href="">
+                        <svg class="social-media-icon" width="16px" height="16px">
+                            <use href="./images/icons.svg#linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
