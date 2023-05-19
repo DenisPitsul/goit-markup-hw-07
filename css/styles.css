@@ -549,16 +549,11 @@ img {
     color: #2e2f42;
 }
 
-.footer-container {
-    padding-right: 15px;
-}
-
 @media (min-width: 768px) {
     .footer-container {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
-        padding-left: 108px;
     }   
 }
 
@@ -569,8 +564,6 @@ img {
 
     .footer-container {
         flex-wrap: nowrap;
-        padding-left: 156px;
-        padding-right: 15px;
     }   
 }
 
